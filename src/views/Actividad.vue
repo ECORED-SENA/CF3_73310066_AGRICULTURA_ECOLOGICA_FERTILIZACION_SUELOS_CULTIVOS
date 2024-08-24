@@ -15,27 +15,40 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Fertilización agroecológica.',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Evaluar los conocimientos adquiridos sobre los conceptos, prácticas y beneficios de la fertilización agroecológica, facilitando la comprensión y aplicación de técnicas sostenibles en el manejo de suelos.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Cuál es el principal objetivo de la fertilización agroecológica? ',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
             {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              id: 'a',
+              texto: 'Mejorar la estructura del suelo. ',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            {
+              id: 'b',
+              texto:
+                'Satisfacer las necesidades nutricionales de los cultivos. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aumentar el uso de fertilizantes químicos. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Promover la erosión del suelo. ',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
@@ -43,77 +56,279 @@ export default {
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
+            '¿Qué componente del suelo está compuesto por minerales y materia orgánica? ',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Fracción líquida. ',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+              texto: 'Fracción gaseosa. ',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
+              texto: 'Fracción sólida. ',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Fracción fotónica. ',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué técnica agroecológica implica la descomposición controlada de residuos orgánicos? ',
+          imagen: require('@/assets/actividad/pregunta_3.png'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Abonos verdes. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Bioles. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Compostaje. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Lombricompuesto. ',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
+          texto: '¿Cuál de los siguientes no es un macronutriente? ',
+          imagen: require('@/assets/actividad/pregunta_4.png'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Nitrógeno. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Fósforo. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Potasio. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Zinc.',
+              esCorrecta: true,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Cuál es un síntoma de deficiencia de nitrógeno en las plantas? ',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Hojas rojizas. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Hojas cloróticas. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Necrosis en los bordes de las hojas. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Nervaduras verdes y clorosis en el resto de la hoja. ',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 6,
+          texto: '¿Cuál es el propósito de usar abonos verdes? ',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Proveer nutrientes sintéticos. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Incrementar el uso de pesticidas. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aportar nutrientes al suelo. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la retención de agua. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué tipo de abono se obtiene mediante la descomposición de materia orgánica por lombrices? ',
+          imagen: require('@/assets/actividad/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Abonos verdes. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Bioles. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Compost. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Lombricompuesto. ',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Cuál de los siguientes es un beneficio de la fertilización agroecológica? ',
+          imagen: require('@/assets/actividad/pregunta_4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Promover la compactación del suelo. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aumentar el uso de químicos. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mejorar la estructura del suelo. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la biodiversidad del suelo. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué abono líquido se obtiene de la fermentación de residuos orgánicos y otros componentes? ',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Abonos verdes. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Compost. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Bioles. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Lombricompuesto. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál de los siguientes elementos no se debe utilizar en el compost? ',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Estiércol de vacas. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Restos de cosecha. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Excremento de gatos o perros. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Cal y/o ceniza de fogón. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
       ],
       mensaje_final_aprobado:
