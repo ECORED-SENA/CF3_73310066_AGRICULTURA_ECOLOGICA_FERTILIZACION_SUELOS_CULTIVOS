@@ -13,7 +13,7 @@
     .cont_intro
       .row
         .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-          figure.m-auto.col-9.col-md-7.col-lg-12
+          figure.m-auto.col-10.col-md-7.col-lg-12
             img(src="@/assets/curso/intro2.png")
         .col-lg-7(data-aos="fade-left")
           .row
