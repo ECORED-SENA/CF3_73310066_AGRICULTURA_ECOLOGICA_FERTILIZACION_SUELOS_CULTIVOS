@@ -5,7 +5,9 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Nutrición de cultivos
+
+    p(data-aos="fade-up") Las plantas absorben nutrientes principalmente a través de las raíces; por tanto, cultivos con buen desarrollo de raíces los absorberán eficientemente. 
 
 </template>
 
@@ -25,5 +27,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>
