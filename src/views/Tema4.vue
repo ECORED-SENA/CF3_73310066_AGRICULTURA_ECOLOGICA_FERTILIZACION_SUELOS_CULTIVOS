@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
-      h1 Titulo de primer nivel
+      h1 Procedimiento para obtener abonos orgánicos 
 
 </template>
 
@@ -25,5 +25,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>

@@ -196,6 +196,7 @@
                 texto="El suelo como organismo vivo"
                 :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                tiempo
               )
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         figure 
