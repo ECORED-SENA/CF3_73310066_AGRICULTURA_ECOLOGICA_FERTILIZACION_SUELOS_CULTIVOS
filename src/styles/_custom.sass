@@ -188,7 +188,7 @@
 /*****Tema 2********/
 .cont_2_1
   background-color: #DCEEB6
-  border-radius: 25px
+  border-radius: 15px
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1)
   cursor: pointer
   &:hover
@@ -242,4 +242,65 @@
 
 @media screen and (max-width: 992px)
   .cont_3_1:before
+    background-size: cover !important
+
+/********Tema 4*********/
+.cont_4_1
+  background: url(../assets/curso/tema4/15.png)
+  background-size: 100% 100%
+
+.cont_4_2, .cont_4_2 *
+  position: relative
+.cont_4_2:before
+  position: absolute
+  content: ''
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(../assets/curso/tema4/8.png)
+  background-size: 100% 100%
+
+.cont_4_3, .cont_4_3 *
+  position: relative
+.cont_4_3:before
+  position: absolute
+  content: ''
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(../assets/curso/tema4/9.png)
+  background-size: 100% 100%
+
+.cont_4_4
+  background: url(../assets/curso/tema4/15.png)
+  background-size: 100% 100%
+
+.cont_4_5, .cont_4_5 *
+  position: relative
+.cont_4_5:before
+  position: absolute
+  content: ''
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(../assets/curso/tema4/30.png)
+  background-size: 100% 100%
+
+.cont_4_6
+  position: relative
+.cont_4_6:before
+  position: absolute
+  content: ''
+  width: 125%
+  height: 90%
+  left: -15%
+  top: 0
+  background: url(../assets/curso/tema4/47.png)
+  background-size: 100% 100%
+
+@media screen and (max-width: 992px)
+  .cont_4_1, .cont_4_2:before,.cont_4_3:before, .cont_4_4,.cont_4_5:before,.cont_4_6:before
     background-size: cover !important
