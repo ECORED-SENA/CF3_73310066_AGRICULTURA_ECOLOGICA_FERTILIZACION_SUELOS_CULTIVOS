@@ -11,13 +11,13 @@
 
     .row.mt-4.justify-content-center
       .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="zoom-in-up")
-        .h-100.text-center.p-4.p-lg-5.cont_2_1
+        .h-100.text-center.p-4.cont_2_1
           figure
             img(src="@/assets/curso/tema2/1.svg")
           h5.mb-0.bg-white.p-1.ps-3.pe-3.m-auto.mt-3 Mineralización de materia orgánica
           p.mt-3.mb-0 Conversión a gas carbónico, agua, nitritos, nitratos, fosfatos, iones potásicos, cálcicos, azufre, boro.
       .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="zoom-in-up")
-        .h-100.text-center.p-4.p-lg-5.cont_2_1
+        .h-100.text-center.p-4.cont_2_1
           figure
             img(src="@/assets/curso/tema2/2.svg")
           h5.mb-0.bg-white.p-1.ps-3.pe-3.m-auto.mt-3 Fotosíntesis
