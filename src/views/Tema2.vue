@@ -190,8 +190,8 @@
               figure.m-auto.col-7.col-md-5.col-lg-12
                 img(src="@/assets/curso/tema2/18.svg")
             .col-lg
-              h4(style="color:#F3D02C;") Podcast
-              p.text-white No se pierdan el episodio: El suelo como organismo vivo de nuestro podcast, acompañen a Don Campos y Azusena mientras revelan los secretos del suelo y su vitalidad. Este episodio les enseñará sobre la importancia de los microorganismos y las prácticas para mantener un suelo fértil y productivo.
+              h4(style="color:#F3D02C;") Pódcast
+              p.text-white No se pierdan el episodio: El suelo como organismo vivo de nuestro pódcast, acompañen a Don Campos y Azusena mientras revelan los secretos del suelo y su vitalidad. Este episodio les enseñará sobre la importancia de los microorganismos y las prácticas para mantener un suelo fértil y productivo.
               TarjetaAudio.color-acento-contenido.mb-3(
                 texto="El suelo como organismo vivo"
                 :audio="require('@/assets/componentes/audios/audio-ej.mp3')"

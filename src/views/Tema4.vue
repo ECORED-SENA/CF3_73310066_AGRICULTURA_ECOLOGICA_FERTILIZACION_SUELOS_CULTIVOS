@@ -176,7 +176,7 @@
                   li.d-flex
                     .lista-ol--cuadro__vineta(style="background-color:#F3D02C;")
                       span.fw-bold(style="color:initial;") 20
-                    span Por cada 10 m2 de terreno se necesitan unos 30 kg de compost.
+                    span Por cada 10 m#[sup 2] de terreno se necesitan unos 30 kg de compost.
               .col-lg-4(style="place-self:center;")
                 figure.m-auto.col-9.col-md-7.col-lg-12
                   img(src='@/assets/curso/tema4/13.png')
@@ -266,13 +266,13 @@
                 img(src='@/assets/curso/tema4/20.png')
           .row(titulo="Paso 4")
             .col-md-6.mb-4.mb-md-0(style="place-self:center;")
-              p La cantidad es de 100 kg x m2, cada 2 meses, de sustrato compostado. 
+              p La cantidad es de 100 kg x m#[sup 2], cada 2 meses, de sustrato compostado. 
             .col-md-6
               figure
                 img(src='@/assets/curso/tema4/21.png')
           .row(titulo="Paso 5")
             .col-md-6.mb-4.mb-md-0(style="place-self:center;")
-              p Una vez se tenga el sustrato, se distribuye en la lombricera de manera uniforme y se siembran 1000 lombrices x m2 (aproximadamente 600 g). 
+              p Una vez se tenga el sustrato, se distribuye en la lombricera de manera uniforme y se siembran 1000 lombrices x m#[sup 2] (aproximadamente 600 g). 
             .col-md-6
               figure
                 img(src='@/assets/curso/tema4/22.png')
@@ -302,7 +302,7 @@
                 img(src='@/assets/curso/tema4/26.png')
           .row(titulo="Paso 10")
             .col-md-6.mb-4.mb-md-0(style="place-self:center;")
-              p Una cama de 1 m2 provee cada 6 meses aproximadamente 150 kg de lombricompuesto. 
+              p Una cama de 1 m#[sup 2] provee cada 6 meses aproximadamente 150 kg de lombricompuesto. 
             .col-md-6
               figure
                 img(src='@/assets/curso/tema4/27.png')
@@ -316,7 +316,7 @@
                 img(src="@/assets/curso/tema4/28.svg")
             .col-md(style="place-self:center;")
               p.mb-0.fw-bold Uso
-              p.mb-0 Esta cantidad sirve para abonar 150 m2.
+              p.mb-0 Esta cantidad sirve para abonar 150 m#[sup 2].
       .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         figure 
           img(src="@/assets/curso/tema4/29.png")
@@ -324,10 +324,10 @@
     Separador 
 
     .titulo-segundo(data-aos="flip-up")
-      h2#t_4_3 4.3 #[em Biol] básico
+      h2#t_4_3 4.3 Biol básico
     
     .cont_4_5
-      p(data-aos="fade-up") El #[em biol] es un abono líquido proveniente de la mezcla de materia orgánica, agua, acondicionadores y promotores de microorganismos. 
+      p(data-aos="fade-up") El biol es un abono líquido proveniente de la mezcla de materia orgánica, agua, acondicionadores y promotores de microorganismos. 
 
       .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
         .row
@@ -441,7 +441,7 @@
         .col.ps-2.pt-lg-3(style="place-self:center;")
           h3.mb-0.pe-5 Uso
       
-    p(data-aos="fade-left") El abono orgánico fermentado tipo bocashi puede aplicarse de manera foliar o edáfica, siguiendo estos procedimientos para asegurar su efectividad y evitar daños a las plantas. 
+    p(data-aos="fade-left") El abono orgánico fermentado tipo #[em bocashi] puede aplicarse de manera foliar o edáfica, siguiendo estos procedimientos para asegurar su efectividad y evitar daños a las plantas. 
 
     .row.mt-4.justify-content-center
       .col-lg.mb-4.mb-lg-0.col-md-10.pe-lg-0(data-aos="fade-right")
@@ -640,9 +640,9 @@
           .row.col-xl-11.m-auto(titulo="Calidad y reutilización ")
             p Si este montón quedó de buena calidad, se guarda una parte de él para utilizarlo de semilla en la próxima pila que se elabore. Así, se evita el uso de carbón y de tierra de bosque. 
           .row.col-xl-11.m-auto(titulo="Uso en semilleros ")
-            p En los semilleros se puede usar el bocashi en proporción de 10 a 40 % en mezcla con el sustrato. 
+            p En los semilleros se puede usar el #[em bocashi] en proporción de 10 a 40 % en mezcla con el sustrato. 
           .row.col-xl-11.m-auto(titulo="Uso al momento de la siembra ")
-            p Al momento de la siembra para hortalizas, se colocan de 30 a 100 g en el fondo del hoyo donde se va a trasplantar la planta. Se cubre con un poco de tierra para que la raíz de la planta trasplantada no tenga contacto directo con el bocashi y eventualmente se pueda quemar. 
+            p Al momento de la siembra para hortalizas, se colocan de 30 a 100 g en el fondo del hoyo donde se va a trasplantar la planta. Se cubre con un poco de tierra para que la raíz de la planta trasplantada no tenga contacto directo con el #[em bocashi] y eventualmente se pueda quemar. 
           .row.col-xl-11.m-auto(titulo="Mantenimiento del cultivo ")
             p Este abono también se puede utilizar en el mantenimiento del cultivo, aplicándolo directamente en el plato de las plántulas sin que las toque. Sirve para la segunda y tercera abonada. 
     
@@ -654,7 +654,7 @@
         .col.ps-2.pt-lg-3(style="place-self:center;")
           h3.mb-0.pe-5 Precauciones  
       
-    p(data-aos="fade-left") Al preparar el abono orgánico fermentado tipo bocashi, es importante seguir ciertas precauciones para asegurar su efectividad y calidad. 
+    p(data-aos="fade-left") Al preparar el abono orgánico fermentado tipo #[em bocashi], es importante seguir ciertas precauciones para asegurar su efectividad y calidad. 
 
     .row.mt-4
       .col-lg
@@ -678,7 +678,7 @@
             .h-100.text-center.p-4.cont_2_1
               figure
                 img(src="@/assets/curso/tema4/62.svg")
-              p.mt-3.mb-0 Preparar siguiendo las proporciones sugeridas de los insumos, ya que el exceso o deficiencia de alguno de ellos hace que el bocashi no funcione.
+              p.mt-3.mb-0 Preparar siguiendo las proporciones sugeridas de los insumos, ya que el exceso o deficiencia de alguno de ellos hace que el #[em bocashi] no funcione.
           .col-lg-4.mb-4.col-md-8(data-aos="zoom-in-up")
             .h-100.text-center.p-4.cont_2_1
               figure
@@ -688,7 +688,7 @@
             .h-100.text-center.p-4.cont_2_1
               figure
                 img(src="@/assets/curso/tema4/64.svg")
-              p.mt-3.mb-0 Si no se obtuvo la calidad esperada, el próximo bocashi se puede mejorar aumentando la cantidad de levadura, melaza y disminuyendo el tamaño de la tierra.
+              p.mt-3.mb-0 Si no se obtuvo la calidad esperada, el próximo #[em bocashi] se puede mejorar aumentando la cantidad de levadura, melaza y disminuyendo el tamaño de la tierra.
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure 
           img(src="@/assets/curso/tema4/65.png")

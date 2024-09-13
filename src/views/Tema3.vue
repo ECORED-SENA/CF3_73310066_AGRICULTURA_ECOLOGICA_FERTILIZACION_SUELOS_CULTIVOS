@@ -76,7 +76,7 @@
               figure.m-auto.col-7.col-md-5.col-lg-12
                 img(src="@/assets/curso/tema2/18.svg")
             .col-lg
-              h4.text-white Podcast
+              h4.text-white Pódcast
               p.text-white Es momento de escuchar este episodio, Don Campos y Azusena, junto con el ingeniero, compartirán cuatro trucos esenciales para asegurar que sus cultivos reciban la mejor nutrición posible. Desde el uso de materia orgánica hasta abonos verdes, aprenderán cómo mantener sus plantas saludables y productivas.  
               TarjetaAudio.color-acento-contenido.mb-3(
                 texto="Nutrición de cultivos"
@@ -149,7 +149,7 @@
               figure.m-auto.col-7.col-md-5.col-lg-12
                 img(src="@/assets/curso/tema2/18.svg")
             .col-lg
-              h4(style="color:#F3D02C;") Podcast
+              h4(style="color:#F3D02C;") Pódcast
               p.text-white Acompañen a Don Campos, Azusena y el ingeniero mientras explican cómo preparar abonos orgánicos poderosos como el biol básico. Aprendan técnicas sencillas y prácticas para enriquecer el suelo y asegurar el crecimiento saludable de sus cultivos.  
               TarjetaAudio.color-acento-contenido.mb-3(
                 texto="Abonos orgánicos"
@@ -193,7 +193,7 @@
                 img(src="@/assets/curso/tema3/12.svg")
             .col(style="place-self:center;")
               p.mb-2.fw-bold.ps-2.pe-2(style="max-width:fit-content;background-color:#F3D02C;") Evita plagas y enfermedades
-              p.mb-0 Los estiércoles animales sin descomponer pueden ser tóxicos para las plantas y propagar plagas y enfermedades.
+              p.mb-0 Los estiércoles de animales sin descomponer pueden ser tóxicos para las plantas y propagar plagas y enfermedades.
     
     .cont_3_1.pt-4.pb-4
       p(data-aos="fade-up") No se debe utilizar en el compost:
