@@ -194,7 +194,7 @@ export default {
     {
       tema: 'Compost de pila ',
       referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (2013). <em>El estado de los recursos de tierras y aguas del mundo para la alimentación y la agricultura: Gestionar sistemas en riesgo.</em> ',
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (2013). <em>Manual de compostaje del agricultor. Experiencias en América Latina.</em> ',
       tipo: 'Documento (Leer 45-65) ',
       link: 'https://www.fao.org/4/i3388s/i3388s.pdf  ',
     },

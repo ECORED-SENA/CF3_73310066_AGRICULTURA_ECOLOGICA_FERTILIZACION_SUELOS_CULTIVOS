@@ -80,7 +80,7 @@
               p.text-white Es momento de escuchar este episodio, Don Campos y Azusena, junto con el ingeniero, compartirán cuatro trucos esenciales para asegurar que sus cultivos reciban la mejor nutrición posible. Desde el uso de materia orgánica hasta abonos verdes, aprenderán cómo mantener sus plantas saludables y productivas.  
               TarjetaAudio.color-acento-contenido.mb-3(
                 texto="Nutrición de cultivos"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/nutricion_de_cultivos.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 tiempo
               )
@@ -153,7 +153,7 @@
               p.text-white Acompañen a Don Campos, Azusena y el ingeniero mientras explican cómo preparar abonos orgánicos poderosos como el biol básico. Aprendan técnicas sencillas y prácticas para enriquecer el suelo y asegurar el crecimiento saludable de sus cultivos.  
               TarjetaAudio.color-acento-contenido.mb-3(
                 texto="Abonos orgánicos"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/abonos_organicos.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 tiempo
               )

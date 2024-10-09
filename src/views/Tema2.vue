@@ -194,7 +194,7 @@
               p.text-white No se pierdan el episodio: El suelo como organismo vivo de nuestro pódcast, acompañen a Don Campos y Azusena mientras revelan los secretos del suelo y su vitalidad. Este episodio les enseñará sobre la importancia de los microorganismos y las prácticas para mantener un suelo fértil y productivo.
               TarjetaAudio.color-acento-contenido.mb-3(
                 texto="El suelo como organismo vivo"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/suelo_como_organismo_vivo.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 tiempo
               )

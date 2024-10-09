@@ -29,7 +29,7 @@
           .p-4.h-100.d-flex.align-content-center.flex-wrap(style="background-color:#F3D02C;border-radius:14px;")
             figure
               img(src="@/assets/curso/intro4.svg" style="max-width:60px;")
-            p.mt-3.mb-0 El objetivo principal es proporcionar a los agricultores y estudiantes herramientas y conocimientos necesarios para implementar prácticas de fertilización agroecológica en sus cultivos. 
+            p.mt-3.mb-0 El objetivo principal es proporcionar a los agricultores y estudiantes, herramientas y conocimientos necesarios para implementar prácticas de fertilización agroecológica en sus cultivos. 
         .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-up")
           figure.m-auto.col-8.col-md-7.col-lg-12
             img(src="@/assets/curso/intro5.svg")
